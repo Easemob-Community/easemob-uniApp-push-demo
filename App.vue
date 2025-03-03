@@ -11,8 +11,10 @@ const initPushOptions = () => {
     emPush: EMPushUniPlugin,
     // 配置需要推送的证书名称
     config: {
+      //👇小米推送证书名称，该段数字为伪小米推送后台生成的证书名称，请使用替换为自己的证书名称
       MICertificateName: "2882303761520334485", // 小米推送证书名称
       // OPPOCertificateName: "xxxxxx", // oppo 推送证书名称
+      //👇华为推送证书名称，该段数字为伪华为推送后台生成的证书名称，请使用替换为自己的证书名称
       HMSCertificateName: "111809475", // 华为推送证书名称
       // VIVOCertificateName: "xxxxxx", // vivo 推送证书名称
       // HONORCertificateName: "xxxxxx", // 荣耀推送证书名称

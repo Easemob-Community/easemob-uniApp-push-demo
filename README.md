@@ -35,6 +35,18 @@
 
 ## 快速开始
 
+- 快速开始的使用建议直接参考环信相关文档，本项目仅作为演示使用。
+
+  [文档入口](https://doc.easemob.com/document/applet/push/uniapp_push.html)
+
+## 特别注意
+
+- 【重要】华为的推送绑定配置与其他厂商配置不同，需要生成`agconnect-services.json`文件，防置在`nativeplugins/EMPushUniPlugin/android/assets`目录下。
+- 【重要】由于涉及使用本地原生插件，务必在自定义基座或真机进行调试方可有效。
+- 本项目仅作为演示使用，不建议直接用于生产环境。
+- 如基于自己项目测试，请确保您已经注册并获取了环信 IM SDK 的 AppKey，且在环信 console 管理后台上传对应平台证书。
+- 本项目仅支持 Android 和 iOS 平台，其他平台暂未支持。
+
 ```bash
 # 克隆项目
 git clone https://github.com/Easemob-Community/easemob-uniApp-push-demo
