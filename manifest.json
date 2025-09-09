@@ -1,6 +1,6 @@
 {
     "name" : "easemob-uni-push",
-    "appid" : "__UNI__3E2DA0C",
+    "appid" : "__UNI__6F7D570",
     "description" : "",
     "versionName" : "1.2.0",
     "versionCode" : 1110,
@@ -92,8 +92,8 @@
                 "oppo_app_secret" : "",
                 "com.vivo.push.app_id" : "",
                 "com.vivo.push.api_key" : "",
-                "xiaomi_app_id" : "2882303761520334485",
-                "xiaomi_app_key" : "5912033445485",
+                "xiaomi_app_id" : "2882303761517520571",
+                "xiaomi_app_key" : "5841752092571",
                 "meizu_app_id" : "",
                 "meizu_app_key" : "",
                 "__plugin_info__" : {
