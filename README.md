@@ -113,6 +113,15 @@ export default {
 </script>
 ```
 
+## 平台特定集成指南
+
+针对不同推送平台，我们提供了详细的集成指南和关键配置截图：
+
+- **[OPPO推送集成指南](./Doc/OPPO/OPPO推送集成指南.md)** - 详细的OPPO平台推送配置步骤
+- **[OPPO关键截图说明](./Doc/OPPO/关键截图说明.md)** - OPPO推送配置的关键截图和验证步骤
+
+更多平台指南将逐步添加，请查看[Doc目录](./Doc/README.md)获取完整信息。
+
 ## 特别注意
 
 - 【重要】华为的推送绑定配置与其他厂商配置不同，需要生成`agconnect-services.json`文件，放置在`nativeplugins/EMPushUniPlugin/android/assets`目录下。
